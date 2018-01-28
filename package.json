@@ -1,0 +1,22 @@
+{
+  "name": "react_portfolio",
+  "version": "1.0.0",
+  "description": "Updated Portfolio Site",
+  "main": "public/index.html",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start":"node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazo84/react_portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jazo84/react_portfolio/issues"
+  },
+  "homepage": "https://github.com/jazo84/react_portfolio#readme"
+}
