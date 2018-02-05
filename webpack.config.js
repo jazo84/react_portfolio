@@ -1,0 +1,24 @@
+module.exports = {
+  devtool: 'inline-source-map',
+  entry: './app.js',
+  output: {
+      filename: './public/bundle/bundle.js'
+  },
+
+  module: {
+    loaders: [
+      {
+        test: /\.jsx?$/,
+        include: /app/,
+        exclude: /(node_modules|bower_components)/,
+        loader: "babel-loader",
+        query: {
+          presets: ['react', 'es2015']
+        }
+      }
+    ]
+  },
+  resolve: {
+    extensions: ['.jsx', '.js']
+  }
+};

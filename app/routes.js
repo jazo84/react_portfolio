@@ -5,6 +5,6 @@ import Home from "./components/pages/home";
 
 export default (
   	<Switch>
-    	<Route exact path="/" component={home} />
+    	<Route exact path="/" component={Home} />
     </Switch>
 );

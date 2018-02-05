@@ -4,9 +4,12 @@
   "description": "Updated Portfolio Site",
   "main": "public/index.html",
   "dependencies": {
+    "axios": "^0.17.1",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "path": "^0.12.7",
     "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
@@ -16,7 +19,7 @@
     "babel-preset-react": "^6.3.13"
   },
   "scripts": {
-    "start": "node server",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
