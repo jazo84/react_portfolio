@@ -6,17 +6,25 @@ export default class HomeNav extends Component {
   render() {
     return (
       <div className="row" style={HomeStyles.navRow}>
-        <div style={HomeStyles.nav} className="col-sm-4" onMouseOver={this.onHover}>
-          About Me
-          </div>
-          <div style={HomeStyles.nav} className="col-sm-4">
-          Projects
-          </div>
-          <div style={HomeStyles.nav} className="col-sm-4">
-          Blog
-          </div>
-          <div style={HomeStyles.nav} className="col-sm-4">
-          Email
+        <div style={HomeStyles.nav} className="col-sm-4">
+          <Link to='/aboutme'>
+            About Me
+          </Link>
+        </div>
+        <div style={HomeStyles.nav} className="col-sm-4">
+          <Link to='/projects'>
+            Projects
+          </Link>
+        </div>
+        <div style={HomeStyles.nav} className="col-sm-4">
+          <Link to='/blog'>
+            Blog
+          </Link>
+        </div>
+        <div style={HomeStyles.nav} className="col-sm-4">
+          <Link to='/email'>
+            Email
+          </Link>
         </div>
       </div>
     );

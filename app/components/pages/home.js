@@ -9,8 +9,8 @@ export default class Home extends Component {
     return (
       <div>
       <HomeNav />
-      <h2 style={HomeStyles.intro_text}>Let's Build Something Amazing Together</h2>
-      <h3 style={HomeStyles.intro2_text}>Jasmaine John</h3>
+      <h2 style={HomeStyles.intro_text}>Jasmaine John</h2>
+      <h3 style={HomeStyles.intro2_text}>Let's Build Something Amazing Together</h3>
         <img style={HomeStyles.background_image} src="http://gdurl.com/hwLF"/><br></br>
       </div>
     );
