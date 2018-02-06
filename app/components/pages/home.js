@@ -1,11 +1,17 @@
 import React, {Component} from 'react';
 
+import {HomeStyles} from '../styles/home.js';
+import HomeNav from '../navs/home_nav';
+
+
 export default class Home extends Component {
   render() {
     return (
       <div>
-        <h1>This is the start of my react portfolio</h1>
-        <img src="https://static.wixstatic.com/media/705708_64b678be84ec4ad7bed4532546fbb741~mv2_d_4000_2870_s_4_2.jpg"/><br></br>
+      <HomeNav />
+      <h2 style={HomeStyles.intro_text}>Let's Build Something Amazing Together</h2>
+      <h3 style={HomeStyles.intro2_text}>Jasmaine John</h3>
+        <img style={HomeStyles.background_image} src="http://gdurl.com/hwLF"/><br></br>
       </div>
     );
   }
