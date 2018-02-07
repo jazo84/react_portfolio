@@ -11,9 +11,9 @@ export const AboutMeStyles = {
   },
 
   nav:{
-    margin: '15px',
+    marginTop: '30px',
+    marginLeft:'15px',
     listStyle: 'none',
-    display:'inline-block',
     color:'#444444',
   },
 

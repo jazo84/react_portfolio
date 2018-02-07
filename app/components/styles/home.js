@@ -25,9 +25,9 @@ background_image: {
     color:'#444444',
   },
   nav:{
-    margin: '30px',
+    marginTop: '30px',
+    marginLeft:'30px',
     listStyle: 'none',
-    display:'inline-block',
     color:'#444444',
   },
 
