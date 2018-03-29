@@ -30,7 +30,7 @@ export const ProjectStyles = {
     height:'350px',
   },
   project3: {
-    width:'375px',
+    width:'400px',
     height:'350px',
   },
   card:{

@@ -6,9 +6,16 @@ export default class HomeNav extends Component {
   render() {
     return (
       <div className="row" style={HomeStyles.navRow}>
+      <div style={HomeStyles.nav} className="col-sm-4">
+      </div>
+      <div style={HomeStyles.nav} className="col-sm-1 nav">
+        <Link to='/'>
+          <p style={HomeStyles.navText}>Home</p>
+        </Link>
+      </div>
         <div style={HomeStyles.nav} className="col-sm-1">
           <Link to='/aboutme'>
-            About Me
+            <p style={HomeStyles.navText}>About Me</p>
           </Link>
         </div>
         <div style={HomeStyles.nav} className="col-sm-1">
@@ -17,13 +24,13 @@ export default class HomeNav extends Component {
           </Link>
         </div>
         <div style={HomeStyles.nav} className="col-sm-1">
-          <Link to='/blog'>
-            Blog
+          <Link to='/resume'>
+            Resume/Skills
           </Link>
         </div>
-        <div style={HomeStyles.nav} className="col-sm-1">
+        <div style={HomeStyles.nav} className="col-sm-2">
           <Link to='/email'>
-            Email
+            Contact Me
           </Link>
         </div>
       </div>

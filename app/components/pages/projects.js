@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Collapsible from 'react-collapsible';
 
 import {ProjectStyles} from '../styles/projects.js';
 import ProjectNav from '../navs/project_nav';
@@ -37,11 +38,11 @@ export default class Projects extends Component {
           <div className="col-sm-4">
             <div className="card">
               <div className="card-body">
-                <h5 className="card-header">Article Page</h5>
-                <p className="card-text">A mock-up of an article page within a News website.</p>
-                <a href="http://afternoon-meadow-71190.herokuapp.com/"><img style={ProjectStyles.project3} src="http://gdurl.com/9jQC"/></a>
+                <h5 className="card-header">Task Manager App</h5>
+                <p className="card-text">Group Project - App to manage simple daily tasks.</p>
+                <a href="#"><img style={ProjectStyles.project3} src="https://i.imgur.com/dk3aQXj.png"/></a>
                 <br></br>
-                <a href="http://afternoon-meadow-71190.herokuapp.com/" className="btn btn-primary">Visit Page</a>
+                <a href="#" className="btn btn-primary">Visit Page</a>
               </div>
             </div>
           </div>

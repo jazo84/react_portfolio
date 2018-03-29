@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-
 import {AboutMeStyles} from '../styles/aboutme.js';
 import AboutMeNav from '../navs/aboutme_nav';
-
 
 export default class AboutMe extends Component {
   render() {

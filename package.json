@@ -4,11 +4,14 @@
   "description": "Updated Portfolio Site",
   "main": "public/index.html",
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.4",
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.4",
+    "@fortawesome/react-fontawesome": "0.0.18",
     "axios": "^0.17.1",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "path": "^0.12.7",
     "react": "^16.2.0",
+    "react-collapsible": "^2.0.4",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2"
   },

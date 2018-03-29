@@ -10,19 +10,15 @@ background_image: {
   zIndex:'-1',
 },
   intro_text: {
-    position:'absolute',
-    top:'250px',
     left:'30px',
     width:'100%',
     color:'#0d401d',
   },
 
   intro2_text:{
-    position:'absolute',
-    top:'325px',
     left:'30px',
     width:'100%',
-    color:'#444444',
+    color:'#0d401d',
   },
   nav:{
     marginTop: '30px',
@@ -31,12 +27,21 @@ background_image: {
     color:'#444444',
   },
 
+  navText:{
+    color:"#444444",
+  },
+
   hover:{
-    textDecoration:"underline",
+    textDecoration:"none",
   },
 
   navRow:{
-    fontSize:'20px',
-    marginTop:"390px"
+    fontSize:'18px',
+    backgroundColor:"#f7f7f7",
+    opacity:"0.7",
+  },
+  textDiv:{
+    position:"absolute",
+    marginTop:"150px",
   }
 }
